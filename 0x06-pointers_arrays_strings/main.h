@@ -12,6 +12,11 @@ int _strcmp(char *s1, char *s2);
  * @n: how many elements
  */
 void reverse_array(int *a, int n);
+/**
+ * cap_string - capitalizes the string;
+ * @s: string to capitalize
+ * Return: return the string
+ */
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);

@@ -4,7 +4,7 @@ int checker(char *s, int i, int len);
 int _strlen_recursion(char *s);
 
 /**
- * is_paindrome - checks if string is palindrome
+ * is_palindrome - checks if string is palindrome
  * @s: string
  * Return: 1 or 0
  */

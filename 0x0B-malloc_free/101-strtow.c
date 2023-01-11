@@ -6,7 +6,7 @@ int count_words(char *str);
 char **strtow(char *str);
 
 /**
- * word_len - locates the index marking the end of the 
+ * word_len - locates the index marking the end of the
  * first word in the string
  * @str: The string to be searched.
  * Return: The index of the end of str.
@@ -84,9 +84,10 @@ char **strtow(char *str)
 
 			free(strings);
 			return (NULL);
+
 		}
 
-		for (l = 0; 1 < letters; l++)
+		for (l = 0; l < letters; l++)
 			strings[w][l] = str[index++];
 
 		strings[w][l] = '\0';

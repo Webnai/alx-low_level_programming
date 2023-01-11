@@ -4,7 +4,7 @@
 
 /**
  * create_array - prints buffer in hexa
- * @c; the address of memory to print
+ * @c: the address of memory to print
  * @size: the size fo the memory to print
  *
  * Return: Nothing.
@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 
 	if (array == NULL)
 		return (NULL);
-	forr (index = 0; index < size; index++)
+	for (index = 0; index < size; index++)
 		array[index] = c;
 
 	return (array);

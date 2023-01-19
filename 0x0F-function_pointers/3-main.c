@@ -4,8 +4,8 @@
 #include "function_pointers.h"
 
 /**
- * main - searches for an integer
- * @agrc: number of arguments
+ * main - searchs for an integer
+ * @argc: number of arguments
  * @argv: array with arguments
  *
  * Return: nothing

@@ -36,6 +36,7 @@ int op_mul(int num1, int num2)
 {
 	return (num1 * num2);
 }
+
 /**
  * op_div - divison between integers
  * @num1:number 1

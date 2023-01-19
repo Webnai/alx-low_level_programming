@@ -5,7 +5,7 @@
 
 /**
  * main - searches for an integer
- * @grc: number of arguments
+ * @agrc: number of arguments
  * @argv: array with arguments
  *
  * Return: nothing

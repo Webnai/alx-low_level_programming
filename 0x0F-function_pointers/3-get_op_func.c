@@ -2,7 +2,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - searchs for an integer
+ * *get_op_func - searchs for an integer
  * @s:string
  *
  * Return: no return

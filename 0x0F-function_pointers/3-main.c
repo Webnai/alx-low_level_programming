@@ -12,12 +12,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1;
-	int num2;
+	int a;
+	int b;
 	int result;
 
-	num1 = 0;
-	num2 = 0;
+	a = 0;
+	b = 0;
 	if (argc != 4)
 	{
 		printf("Erro\n");
@@ -31,9 +31,9 @@ int main(int argc, char *argv[])
 	}
 	if (argv[2][1] == '\0')
 	{
-		num1 = atoi(argv[1]);
-		num2 = atoi(argv[3]);
-		result = (*get_op_func(argv[2]))(num1, num2);
+		a = atoi(argv[1]);
+		b = atoi(argv[3]);
+		result = (*get_op_func(argv[2]))(a, b);
 		printf("%d\n", result);
 
 	} else

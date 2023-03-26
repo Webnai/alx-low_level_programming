@@ -1,28 +1,15 @@
 #include "main.h"
 
 /**
- * _strncpy - copy a string
- * @dest: input value
- * @src: input value
- * @n: input value
+ * _islower - check if char is lowercase
+ * @c: the character to be checked
  *
- * Return: dest
+ * Return: 1 if char is lowercase, otherwise 0
  */
-
-char *_strncpy(char *dest, char *src, int n)
+int _islower(int c)
 {
-	int g;
-
-	g = 0;
-	while (g < n && src[g] != '\0')
-	{
-		dest[g] = src[g];
-		g++;
-	}
-	while (g < n)
-	{
-		dest[g] = '\0';
-		g++;
-	}
-	return (dest);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
